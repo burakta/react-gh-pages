@@ -24,29 +24,28 @@ body, html {
     text-decoration: none;
   }
   
-  ul.header li {
+  .header li {
     display:inline;
     list-style-type: none;
-    margin:;
   
   }
-  ul.header {
+  .header {
     background:transparent/*rgb(24, 58, 89)*/;
     text-align:right;
     margin:0 8px;
   }
-  ul.header li a{
+  .header li a{
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding:10px;
     text-decoration: none;
     display: inline-block;
   }
-  ul.header li a:hover{
+  .header li a:hover{
     background:#191c21;
   }
-  ul.header a li:active,
-  ul.header a li:link, ul.header a li:visited{
+  .header a li:active,
+  .header a li:link, .header a li:visited{
     background:#191c21;
   }
   
